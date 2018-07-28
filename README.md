@@ -19,20 +19,14 @@ The goal is to reach the highest score possible!
 
 **Desktop:**
 
-The player presses the key-up to move one square up.
-
-The player presses the key-down to move one square down.
-
-The player presses the key-right to move one square right.
-
-The player presses the key-left to move one square left.
+The player presses the key-up to move one square up.__
+The player presses the key-down to move one square down.__
+The player presses the key-right to move one square right.__
+The player presses the key-left to move one square left.__
 
 **Mobile:**
 
-The player touches the drawed key-up on the canvas to move one square up.
-
-The player touches the drawed key-down on the canvas to move one square down.
-
-The player touches the drawed key-right on the canvas to move one square right.
-
-The player touches the drawed key-left on the canvas to move one square right.
+The player touches the drawed key-up on the canvas to move one square up.__
+The player touches the drawed key-down on the canvas to move one square down.__
+The player touches the drawed key-right on the canvas to move one square right.__
+The player touches the drawed key-left on the canvas to move one square left.__
