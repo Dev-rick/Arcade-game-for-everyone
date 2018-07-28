@@ -2,8 +2,8 @@
 
 ## Table of Contents
 
-* [Game Explanation](#'Game Explanation')
-* [Game Functionality](#'Game Functionality')
+* [Game Explanation]('#Game-Explanation')
+* [Game Functionality]('#GameFunctionality')
 
 ## Game Explanation
 
