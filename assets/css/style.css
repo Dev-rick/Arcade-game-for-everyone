@@ -1,0 +1,127 @@
+html {
+    box-sizing: border-box;
+}
+
+*,
+*::before,
+*::after {
+    box-sizing: inherit;
+}
+
+body * { -webkit-tap-highlight-color: rgba(0,0,0,0); }
+
+
+html,
+body {
+    width: 100%;
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+
+body {
+    background: #ffffff url('../img/geometry2.png');  /*Background pattern from Subtle Patterns3*/
+    font-family: 'Coda', cursive;
+}
+
+
+.container {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    width: 100%;
+    height: 100%;
+}
+
+
+
+/* Style for the playmodal and the endmodal  */
+
+.playmodal {
+    display: flex; /* Hidden by default */
+    flex-wrap: wrap;
+    position: fixed; /* Stay in place */
+    z-index: 1; /* Sit on top */
+    top: 0;
+    width: 100%; /* Full width */
+    height: 100%; /* Full height */
+    overflow: auto; /* Enable scroll if needed */
+    background-color: rgb(0,0,0); /* Fallback color */
+    background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
+}
+
+.gameovermodal {
+    display: none; /* Hidden by default */
+    flex-wrap: wrap;
+    position: fixed; /* Stay in place */
+    z-index: 1; /* Sit on top */
+    top: 0;
+    width: 100%; /* Full width */
+    height: 100%; /* Full height */
+    overflow: auto; /* Enable scroll if needed */
+    background-color: rgb(0,0,0); /* Fallback color */
+    background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
+}
+
+/* Modal Content */
+.modal-content {
+    background-color: #fefefe;
+    margin: auto;
+    border: 10px solid black;
+    font-size: 20px;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2),0 6px 20px 0 rgba(0,0,0,0.19);
+    animation-name: animatetop;
+    animation-duration: 0.4s
+}
+
+/* Modal Header */
+.modal-header {
+    display: flex;
+    justify-content: center; /* makes it in the horizontal center */
+    background-color: #2AC004;
+    color: white;
+}
+.gameovermodal-header {
+    display: flex;
+    justify-content: center; /* makes it in the horizontal center */
+    background-color: #ff471a;
+    color: white;
+}
+
+/* Modal Body */
+.modal-body {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  text-align: center;
+  align-items: center;
+  padding: 16px 16px;
+  min-height: 100%;
+}
+
+.modal-body .stars {
+  font-size: 50px;
+}
+
+/* Modal Footer */
+
+
+.playmodal-footer {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding: 16px 16px;
+    background-color: #2AC004;
+    color: white;
+    cursor: pointer;
+}
+.gameovermodal-footer {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding: 16px 16px;
+    background-color: #ff471a;
+    color: white;
+    cursor: pointer;
+}
